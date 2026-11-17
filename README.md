@@ -19,24 +19,25 @@ Checksum: 8-bits
 Wiring
 ------
 
-![Pinout diagram](rj45-denbus.png)
+<img src="rj45-denbus.png" alt="Pinout diagram" width="320" height="280" />
 
-The T568A cable scheme is recommended.
+The T568B cable scheme is recommended.
 
-| RJ-45 Pin  | T568A Colour | Description  |
+| RJ-45 Pin  | T568B Colour | Description  |
 | ---------- | ------------ | ------------ |
-| 1          | white/green  | Power: +24v  |
-| 2          | green        | Power: +24v  |
-| 3          | white/orange | Ground       |
+| 1          | white/orange | Power: +24v  |
+| 2          | orange       | Power: +24v  |
+| 3          | white/green  | Ground       |
 | 4          | blue         | Flow: A      |
 | 5          | white/blue   | Flow: B      |
-| 6          | orange       | Ground       |
+| 6          | green        | Ground       |
 | 7          | white/brown  | Return: A    |
 | 8          | brown        | Return: B    |
 
 By having two pairs of RS-485 signals on each cable, it allows us to create a physical 
-network with a star topology, but in which electrically it is still a bus topology,
+network with a star topology, but in which electrically it is still a linear bus topology,
 which is what RS-485 requires.
+
 
 Transmission
 ------------
