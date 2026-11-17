@@ -1,4 +1,4 @@
-Dennet
+Denbus
 ======
 
 Experiment into Home Automation on a half-duplex RS-485 network.
@@ -19,7 +19,7 @@ Checksum: 8-bits
 Wiring
 ------
 
-![Pinout diagram](https://github.com/njh/dennet/raw/master/rj45-dennet.png)
+![Pinout diagram](rj45-denbus.png)
 
 The T568A cable scheme is recommended.
 
